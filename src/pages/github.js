@@ -24,7 +24,7 @@ class GitHubPage extends React.Component {
     return (  
       <div className={this.state.hide || this.props.printMode ? "d-none" : "github-popup"}>
         <FontAwesomeIcon icon={faGithub}/>
-        <p>View the source code for this page here</p>
+        <p>View the <a href="https://github.com/sonic1981/CV-Source">source code for this page here</a></p>
         <FontAwesomeIcon icon={faTimes} onClick={this.buttonClick}/>
       </div>
 

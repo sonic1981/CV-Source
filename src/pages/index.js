@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchLocation, faAt, faMobileAlt, faCalendar } from '@fortawesome/free-solid-svg-icons';
@@ -47,7 +48,15 @@ class IndexPage extends React.Component {
   }
 
   render() {
-    return (<React.Fragment>
+    return (
+    <React.Fragment>
+      <Helmet htmlAttributes={{
+        lang: 'en',
+      }}>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="robots" content="noindex"></meta>
+      </Helmet>
       <OnlineHeader buttonClick={this.buttonClick} printMode={this.state.printMode}/>
       <div className={this.state.printMode ? "container-fluid main-content" : "container-fluid main-content online"}>
           

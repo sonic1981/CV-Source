@@ -1,0 +1,100 @@
+.online-header {
+  display: block;
+  border-bottom: 1px solid #f7007e;
+  padding: 0.5em 0;
+  margin-bottom: 3em;
+  background-color: black;
+  color: #2fc148;
+}
+
+.online {
+  &.container-fluid {
+    @media screen and (max-width: 1000px) {
+      font-size: 14px;
+    }
+
+    @media screen and (max-width: 700px) {
+      h3 {
+        font-size: 1.2em;
+      }
+    }
+
+    @media screen and (max-width: 650px) {
+      .header {
+        flex-direction: column;
+        .d-flex {
+          justify-content: center;
+        }
+      }
+
+      .work {
+        .col-5,
+        .col-3,
+        .col-3 {
+          width: 33%;
+        }
+      }
+
+      .additional {
+        flex-direction: column;
+        div {
+          flex: 1 0 100%;
+          width: 100%;
+          a {
+            display: block;
+            margin-bottom: 0.5em;
+          }
+        }
+        a,
+        p {
+          text-align: center;
+        }
+      }
+
+      .education {
+        p {
+          margin-bottom: 0.5em !important;
+        }
+      }
+
+    }
+
+    font-size: 16px;
+
+    .work.no-line {
+      border-top: 1px solid #2fc148;
+      margin-top: 0;
+    }
+
+    
+  }
+
+  .social {
+    .svg-inline--fa {
+      font-size: 2em;
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    .social {
+      .svg-inline--fa {
+        font-size: 4em;
+      }
+      a {
+        font-size: 2em;
+      }
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .social {
+      .svg-inline--fa {
+        font-size: 3em;
+      }
+      a {
+        font-size: 2em;
+      }
+    }
+  }
+  
+}

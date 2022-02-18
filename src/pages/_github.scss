@@ -1,0 +1,43 @@
+
+
+
+.github-popup {
+  animation-name: slidein;
+  animation-duration: 3s;
+  position: fixed;
+  bottom: 0;
+  width:350px;
+  background-color: black;
+  display: flex;
+  padding: 2em;
+  flex-direction: row;
+  justify-content: center;
+  color: #2fc148;
+  font-size: 1.2em;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  margin-left: 1em;
+  .fa-github {
+    font-size: 3em;
+  }
+  .fa-times{
+    position: relative;
+    top: -1.5em;
+    left: 2em;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  P {
+    margin: auto 0 auto 1em;
+  }
+}
+
+@keyframes slidein {
+  from {
+    bottom: -115px;
+  }
+  to {
+    bottom: 0;
+  }
+}

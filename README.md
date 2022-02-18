@@ -1,54 +1,18 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Liam Hughes
 
-## 🚀 Quick start
+Welcome to the source code for my CV. I chose to write my CV using a web opage in order to give me more control over it's look and feel. I really wanted to try and create a more interesting CV than your run of the mill MS Word template. 
 
-1.  **Create a Gatsby site.**
+I then decided that if I was going to do this I might as well do it to work on some new skills. I have worked with **many** javascript UI frameowrks over the years but I hadn't done too much with React. I was interested in learning and understanding this framework more. I had worked with React when building my wifes business web page [https://tygwynreflex.co.uk/](https://tygwynreflex.co.uk/) but having more practce with React seemed like a good idea.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+Have built a print version of my CV locally, it seemed like a good oportunity to make my CV stand out more with a web page. Being as it was already a web page in the print version it was simple to just publish this online using GitHub. I made some amendments to the print page to make it more responsive and to add some extra details, like the link that hopefully brought you here :blush:.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+Now having comepleted these tasks I thought, it seemed a shame to not just show how the page had been built. So I've published a fork of the source code (somewhat anonymised) here. So feel free to browse around.
 
-2.  **Start developing.**
+This page isn't exactly the most complicated interface I've built. It has limited interaction but here are some of the skills I've tried to show you here:
 
-    Navigate into your new site’s directory and start it up.
+- Basic React and Javascript skills
+- Understanding of web page security fundermentals (check out the [CSP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP))
+- Responsive design, the working page should be accessible from you mobile to your printer to your desktop
+- Some simple CSS transitions
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+Hopefully you like what you see here. If you want to contact me regarding any of this (and you don't already have my details) then you should check out my [LinkedIn profile](https://www.linkedin.com/in/liam-hughes-69b9432a/).

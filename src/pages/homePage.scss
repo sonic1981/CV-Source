@@ -1,0 +1,17 @@
+@use "colours";
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+
+.header {
+
+  border-bottom: 1px solid colours.$green;
+
+  .svg-inline--fa {
+    font-size: 2em;
+  }
+}
+

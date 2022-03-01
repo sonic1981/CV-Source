@@ -1,20 +1,24 @@
 @use "online-header";
 @use "github";
+@use "colours";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 
 
 
-$pink: #f7007e;
-$green: #2fc148;
 
-html {
+
+html, body, .main-content{
   font-size: 12px;
 }
 
 body {
-    -webkit-print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+  &.cv {
+    background-color: white;
+    color: black;
+  }
 }
 
 .main-content{
@@ -22,9 +26,12 @@ body {
   padding: 5mm 10mm 10mm 10mm;
 }
 
-.no-line {
-  &:nth-child(1) {
-     margin-top: 10mm;
+@media print {
+
+  .no-line {
+    &:nth-child(1) {
+      margin-top: 10mm;
+    }
   }
 }
 
@@ -54,7 +61,7 @@ a {
 }
 
 h2 {
-    border-bottom: 1px solid $pink;
+    border-bottom: 1px solid colours.$pink;
     padding: 0.5em 0;
     -webkit-print-color-adjust: exact;
     font-size:1.7em;
@@ -108,19 +115,19 @@ h3 {
 .me {
     height: 100px;
     border-radius: 50px;
-    border: 2px solid $pink;
+    border: 2px solid colours.$pink;
     float: left;
 }
 
 hr {
-    background-color: $pink;
+    background-color: colours.$pink;
     -webkit-print-color-adjust: exact;
 }
 
 
 
 .pill {
-    border: 2px solid $green;
+    border: 2px solid colours.$green;
     padding: 0.25em 0.5em;
     border-radius: 0.5em;
     font-weight: bold;
@@ -128,8 +135,8 @@ hr {
     float: left;
     font-size: 0.75em;
     &.highlight {
-        border: 2px solid $pink;
-        background-color: $green;
+        border: 2px solid colours.$pink;
+        background-color: colours.$green;
         color:white;
     }
 }
@@ -145,10 +152,12 @@ hr {
 
     .work {
         &.no-line {
+          @media print {
             border-top: none;
+          }
         }
         padding-top: 0.5em;
-        border-top:1px solid $green;
+        border-top:1px solid colours.$green;
         h4, p {
             line-height: 2em;
             margin-bottom: 0;
@@ -170,9 +179,9 @@ hr {
         margin-bottom: 0.5em;
     }
     .ruler {
-        border: 1px solid $green;
+        border: 1px solid colours.$green ;
         div {
-            background-color: $green;
+            background-color: colours.$green;
             height: 2px;
             -webkit-print-color-adjust: exact;
 

@@ -8,8 +8,8 @@
 }
 
 @media print {
-  .online-header {
-    display: none;
+  .d-flex.online-header {
+    display: none !important;
   }
   .github-popup {
     display: none !important;

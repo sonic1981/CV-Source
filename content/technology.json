@@ -1,0 +1,9 @@
+[
+  {"name": "React", "leader": "React is a framework I've only just stated to use. I can see why many people prefer this to Angular. The flexibility is refreshing."},
+  {"name": "Azure", "leader": "I've been working on Azure based systems for several years. I've written full serverless SaaS application utilising technology such as Azure Functions, Service bus, Application Insights, etc."},
+  {"name": "Architecture", "leader": "One of my absolute passions. I love having a blank canvas and a problem to solve."},
+  {"name":"Terraform", "leader": "Terraform is a Infrastructure as Code tool. Continuing the theme of code bases containing all information required to make them run, this bridges the gap between Code and Deployment by creating your assets in the cloud."},
+  {"name": "Angular", "leader": "I've been working in Angular for quite a number of years. Angular can be really powerful but I feel other frameworks are starting to get the edge"},
+  {"name": "C#", "leader": "C# was one of the first programming languages I learned, back in 2005. I've worked on pretty much all the versions of .Net from 1.1 to .Net 6"}
+  
+]

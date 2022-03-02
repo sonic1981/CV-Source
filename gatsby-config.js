@@ -2,7 +2,7 @@
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://sonic1981.github.io/Spendesk`
+    siteUrl: `https://sonic1981.github.io`
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -37,5 +37,4 @@ module.exports = {
     },
     `gatsby-transformer-json`
   ],
-  pathPrefix: `/spendesk`,
 };

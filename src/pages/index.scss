@@ -1,6 +1,8 @@
 @use "online-header";
 @use "github";
 @use "colours";
+@use "hero";
+@use "maintheme";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
@@ -17,7 +19,7 @@ body {
   -webkit-print-color-adjust: exact;
   &.cv {
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
   }
 }
 
@@ -104,7 +106,6 @@ h3 {
     padding-top: 0.5em;
     background-color: black;
     color: white;
-    margin-top: 40px;
     
     P {
       text-align: center;

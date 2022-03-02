@@ -5,20 +5,25 @@ import './homePage.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faStackOverflow, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Me from '../images/Me.jpg';
+import HeroPage from "../components/hero";
+import { graphql } from "gatsby"
+
+const heroOutput = (heroData) => {
+  return heroData.map(m => <HeroPage data={m.node} />);
+};
 
 
-class IndexPage extends React.Component {
-  render() {
-    return (
-      <React.Fragment>
+const IndexPage = ({data}) => {
+    return (<React.Fragment>
         <Helmet htmlAttributes={{
           lang: 'en',
         }}>
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <meta name="robots" content="noindex"></meta>
+          <title>Liam Hughes :: Opinions of a Professional Software Engineer</title>
         </Helmet>
-        <div className="container mt-5">
+        <div className="container mt-5 main-theme">
           <div className="row">
               <div className="col pl-4 pr-4">
                   <div className="row header">
@@ -35,10 +40,30 @@ class IndexPage extends React.Component {
                   </div>
               </div>
           </div>
+          <p className="d-block text-center">I've written up some information on my experience in several technologies. Please have a read though this information to see what experience and ideas I have to offer.</p>
+
+          <div className="d-flex flex-row justify-content-center flex-wrap">
+            {heroOutput(data.allTechnologyJson.edges)}
+          </div>
         </div>
 
       </React.Fragment>);
   }
+
+
+export const query = graphql`
+{
+  allTechnologyJson {
+    edges {
+      node {
+        name
+        id
+        leader
+      }
+    }
+  }
 }
+
+`
 
 export default IndexPage;

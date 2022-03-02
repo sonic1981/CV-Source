@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;300&family=Smooch+Sans:wght@600&display=swap');
+
+.main-theme {
+  font-family: 'Smooch Sans', sans-serif;
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    border: none;
+  }
+  
+  p{
+    font-size: 1.25em;
+  }
+
+  .header {
+    margin-bottom: 2em;
+    a {
+      font-size: 1.25em;
+    }
+  }
+}

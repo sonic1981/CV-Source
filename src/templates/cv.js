@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import { graphql } from 'gatsby';
 import '../pages/index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearchLocation, faAt, faMobileAlt, faCalendar } from '@fortawesome/free-solid-svg-icons';
+import { faSearchLocation, faAt, faMobileAlt, faCalendar, faPrint } from '@fortawesome/free-solid-svg-icons';
 import Me from '../images/Me.jpg';
 import GitHubPage from '../components/github';
 import SocialPage from '../components/social';
@@ -34,6 +34,9 @@ const CVPage= ({data}) => {
         <meta name="robots" content="noindex"></meta>
         <title>Liam Hughes' CV for {name}</title>
       </Helmet>
+      <div className="container-fluid online-header d-flex justify-content-center">
+          <a href="Javascript:window.print();">This web page is designed to be <span className="font-weight-bold">Printer friendly</span>! <FontAwesomeIcon icon={faPrint}/></a>
+        </div>
       <div className="container-fluid main-content">
           
           <div className="row">

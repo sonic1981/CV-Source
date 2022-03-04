@@ -2,7 +2,7 @@
 
 Welcome to the source code for my CV. I chose to write my CV using a web page to give me more control over its look and feel. I wanted to try and create a more interesting CV than your run of the mill MS Word template.
 
-I then decided that if I was going to do this I might as well do it to work on some new skills. I have worked with many javascript UI frameworks over the years but I hadn't done too much with React. I was interested in learning and understanding this framework more. I had worked with React when building my wife's business web page[https://tygwynreflex.co.uk/](https://tygwynreflex.co.uk/) but having more practice with React seemed like a good idea.
+I then decided that if I was going to do this I might as well do it to work on some new skills. I have worked with many javascript UI frameworks over the years but I hadn't done too much with React. I was interested in learning and understanding this framework more. I had worked with React when building my wife's business web page [https://tygwynreflex.co.uk/](https://tygwynreflex.co.uk/) but having more practice with React seemed like a good idea.
 
 Having built a print version of my CV locally, it seemed like a good opportunity to make my CV stand out more with a web page. Being as it was already a web page in the print version it was simple to just publish this online using GitHub. I made some amendments to the print page to make it more responsive and to add some extra details, like the link that hopefully brought you here :blush:.
 

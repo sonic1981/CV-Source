@@ -1,6 +1,6 @@
 # Liam Hughes
 
-Welcome to the source code for my CV. I chose to write my CV using a web opage in order to give me more control over it's look and feel. I really wanted to try and create a more interesting CV than your run of the mill MS Word template. 
+Welcome to the source code for my CV. I chose to write my CV using a web page in order to give me more control over it's look and feel. I really wanted to try and create a more interesting CV than your run of the mill MS Word template. 
 
 I then decided that if I was going to do this I might as well do it to work on some new skills. I have worked with **many** javascript UI frameowrks over the years but I hadn't done too much with React. I was interested in learning and understanding this framework more. I had worked with React when building my wifes business web page [https://tygwynreflex.co.uk/](https://tygwynreflex.co.uk/) but having more practce with React seemed like a good idea.
 
